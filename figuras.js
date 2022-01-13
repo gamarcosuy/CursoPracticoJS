@@ -58,3 +58,25 @@ console.log("El área del círculo mide : " + areaCirculo + "cm ala 2");
 
 
 console.groupEnd();
+
+//Interacción con el html
+
+
+
+
+function calcularPerimetroCuadrado()
+{
+	const input = document.getElementById("inputCuadrado");
+	const inputCuadrado = input.value;
+	const perimetro = perimetroCuadrado(input.value);
+	alert(perimetro);
+}
+
+
+
+function calcularAreaCuadrado(){
+    const input = document.getElementById("inputCuadrado");
+  
+    const área = areacuadrado(input.value);
+    (área);
+};
