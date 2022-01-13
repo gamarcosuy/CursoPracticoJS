@@ -64,6 +64,14 @@ console.groupEnd();
 
 
 
+function calcularPerimetroCuadrado(){
+  const input = document.getElementById("inputCuadrado");
+  
+  
+  const perimetro = perimetroCuadrado(input.value);
+  alert(perimetro);
+
+};
 function calcularPerimetroCuadrado()
 {
 	const input = document.getElementById("inputCuadrado");
